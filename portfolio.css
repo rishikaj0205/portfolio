@@ -245,9 +245,6 @@ button:hover{
 }
 
 .main-edu{
-    background-color:#fff;
-}
-.main-edu{
     display: flex;
     justify-content: center;
     background-color: #1f242d;
@@ -256,14 +253,20 @@ button:hover{
 .edu{
     padding: 80px 0px 80px 0px;
 }
-.edu .buton{
-    background-color: #0ef;
-    color: #1f242d;
-    box-shadow: 0 0 10px #0ef;
-}
 .top{
     display: flex;
     gap: 20px;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:#1f242d !important; 
+    background-color:#0ef !important;
+}
+.nav-link{
+     color:white !important;
+}
+.stud p{
+    display: flex;
+    justify-content: space-between;
 }
 /* footer */
 .cont{
