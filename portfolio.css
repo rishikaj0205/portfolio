@@ -10,7 +10,7 @@ img{
 }
 .top-main{
     background-color:#1f242d;
-    height: 100vh;
+    padding: 30px 0px 100px 0px;
 }
 .navee ul{
     display: flex;
@@ -54,6 +54,7 @@ img{
 
 /* top content */
 .main-content{
+    padding: 40px 0px 0px 0px;
     display: flex;
     justify-content: center;
 }
@@ -72,10 +73,14 @@ img{
 }
 .girl-img{
     object-fit: cover;
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
     justify-self: end;
-    clip-path: circle(30%);
+    box-shadow: 0 0 20px #0ef;
+    border-radius: 50%;
+}
+.girl-img img{
+    clip-path: circle(48%);
 }
 .abt{
     font-size: 15px;
@@ -208,7 +213,7 @@ button:hover{
 .main-proj{
     display: flex;
     justify-content: center;
-    background-color:#0c111acd;
+    background-color:#1d212a;
     color: white;
 }
 .proj{
@@ -243,31 +248,61 @@ button:hover{
     font-size: 25px;
     color: #0ef;
 }
-
+/* education  */
 .main-edu{
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    background-color: #1f242d;
+    background-color:#1f242d;
+    padding: 50px 0px 50px 0px;
+}
+.ed{
+    font-size: 25px;
+    justify-self: center;
     color: white;
+    font-weight: 600;
 }
-.edu{
+.educat{
     padding: 80px 0px 80px 0px;
-}
-.top{
-    display: flex;
-    gap: 20px;
-}
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color:#1f242d !important; 
-    background-color:#0ef !important;
-}
-.nav-link{
-     color:white !important;
-}
-.stud p{
-    display: flex;
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3,26%);
     justify-content: space-between;
 }
+.sch,.clg,.hub{
+    padding: 20px;
+    background-color:#0ef;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+    justify-content: center;
+}
+.sch:hover{
+    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/school.png');
+    border: #0ef solid 2px;
+    background-size: cover;
+    background-position: center;
+    color:#1f242d;
+}
+.clg:hover{
+    border: #0ef solid 2px;
+    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/clg.jpeg');
+    background-size: cover;
+    background-position: center;
+    color:#1f242d;
+}
+.hub:hover{
+    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/alo.jpeg');
+    color:#1f242d;
+    background-size: cover;
+    background-position: center;
+    border: #0ef solid 2px;
+}
+
 /* footer */
 .cont{
     background-color: #1d212a;
