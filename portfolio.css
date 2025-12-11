@@ -219,7 +219,6 @@ button:hover{
 .proj{
     padding: 80px 0px 80px 0px;
     display: grid;
-    /* gap: 10px; */
     width: 80%;
     grid-template-columns: 50% 50%;
     justify-content: center;
@@ -337,6 +336,39 @@ button:hover{
 
 
 /* media query  */
+@media (min-width: 1201px) and (max-width: 1440px) {
+
+    .proj {
+        width: 85%;
+        grid-template-columns: 55% 45%;
+        padding: 70px 0;
+        gap: 35px;
+    }
+
+    .vid video {
+        width: 100%;
+        max-width: 550px;
+    }
+
+    .desc span {
+        font-size: 30px;
+    }
+
+    .desc p {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .view {
+        width: 240px;
+        gap: 20px;
+    }
+
+    .view i {
+        font-size: 24px;
+    }
+
+}
 
 @media (min-width:1024px) and (max-width:1201px){
     .navbar{
@@ -344,10 +376,6 @@ button:hover{
     }
     .top-content{
         width: 90%;
-    }
-    .girl-img{
-        width: 450px;
-        height: 550px;
     }
     .abt{
         text-align-last: center;
@@ -358,12 +386,34 @@ button:hover{
     .aboutme{
         width: 90%;
     }
-    .proj{
-        width: 100%;
-        grid-template-columns: 40% 40%;
+     .proj {
+        width: 90%;
+        grid-template-columns: 55% 45%;
+        padding: 60px 0;
+        gap: 30px;
     }
-    .desc p{
-        width: 350px;
+
+    .vid video {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .desc span {
+        font-size: 28px;
+    }
+
+    .desc p {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+
+    .view {
+        width: 220px;
+        gap: 18px;
+    }
+
+    .view i {
+        font-size: 22px;
     }
 }
 
@@ -388,11 +438,6 @@ button:hover{
     .name{
         font-size: 30px;
     }
-    .girl-img{
-        width: 350px;
-        height: 500px;
-        justify-self: center;
-    }
     .about{
         gap: 35px;
     }
@@ -403,9 +448,42 @@ button:hover{
     .skill{
         grid-template-columns: 50% 50%;
     }
-    .proj{
-        grid-template-columns: 40% 40%;
+    @media (min-width: 768px) and (max-width: 1024px) {
+
+    .proj {
+        width: 90%;
+        grid-template-columns: 1fr;
+        padding: 60px 0;
+        gap: 40px;
+        text-align: center;
     }
+
+    .vid video {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .desc {
+        font-size: 14px;
+    }
+
+    .desc span {
+        font-size: 26px;
+    }
+
+    .view {
+        margin: 0 auto;
+        width: 220px;
+        gap: 18px;
+        justify-content: center;
+    }
+
+    .view i {
+        font-size: 22px;
+    }
+}
+
 }
 @media (min-width:426px) and (max-width:768px){
     .top-content{
@@ -415,19 +493,48 @@ button:hover{
     .navee{
         display: none;
     }
-    .girl-img{
-        width: 350px;
-        height: 300px;
-    }
     .aboutme{
         grid-template-columns: 100%
     }
     .skill{
         grid-template-columns: 50% 50%;
     }
-    .proj{
-        grid-template-columns: 80%;
+    @media (min-width: 426px) and (max-width: 768px) {
+
+    .proj {
+        width: 90%;
+        grid-template-columns: 1fr; /* Single column layout */
+        padding: 50px 0;
+        gap: 35px;
+        text-align: center;
     }
+
+    .vid video {
+        /* width: 90%; */
+        /* max-width: 500px; */
+        margin: 0 auto;
+    }
+
+    .desc {
+        font-size: 13px;
+    }
+
+    .desc span {
+        font-size: 24px;
+    }
+
+    .view {
+        margin: 0 auto;
+        width: 200px;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .view i {
+        font-size: 20px;
+    }
+}
+
 }
 @media (max-width:426px){
     .navee{
@@ -461,10 +568,44 @@ button:hover{
     .skill{
         grid-template-columns: 90%;
     }
-    .proj{
-        grid-template-columns: 100%;
+    @media (max-width: 426px) {
+
+    .proj {
+        width: 95%;
+        grid-template-columns: 1fr; /* Single column layout */
+        padding: 40px 0;
+        gap: 25px;
+        text-align: center;
     }
-    .main-proj{
+
+    .vid video {
         width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
     }
+
+    .desc {
+        font-size: 12px;
+    }
+
+    .desc span {
+        font-size: 20px;
+    }
+
+    .desc p {
+        line-height: 1.6;
+    }
+
+    .view {
+        margin: 0 auto;
+        width: 180px;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .view i {
+        font-size: 18px;
+    }
+}
+
 }
