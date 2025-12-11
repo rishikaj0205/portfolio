@@ -271,8 +271,10 @@ button:hover{
     justify-content: space-between;
 }
 .sch,.clg,.hub{
+    color: #0ef;
     padding: 20px;
-    background-color:#0ef;
+    background-color:transparent;
+    border: #0ef solid 2px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -282,13 +284,11 @@ button:hover{
 }
 .sch:hover{
     background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/school.png');
-    border: #0ef solid 2px;
     background-size: cover;
     background-position: center;
     color:#1f242d;
 }
 .clg:hover{
-    border: #0ef solid 2px;
     background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/clg.jpeg');
     background-size: cover;
     background-position: center;
@@ -299,7 +299,6 @@ button:hover{
     color:#1f242d;
     background-size: cover;
     background-position: center;
-    border: #0ef solid 2px;
 }
 
 /* footer */
@@ -415,6 +414,7 @@ button:hover{
     .view i {
         font-size: 22px;
     }
+    
 }
 
 @media (min-width:768px) and (max-width:1024px){
@@ -448,7 +448,6 @@ button:hover{
     .skill{
         grid-template-columns: 50% 50%;
     }
-    @media (min-width: 768px) and (max-width: 1024px) {
 
     .proj {
         width: 90%;
@@ -482,13 +481,14 @@ button:hover{
     .view i {
         font-size: 22px;
     }
+    
 }
 
-}
 @media (min-width:426px) and (max-width:768px){
     .top-content{
         grid-template-columns: 100%;
         margin: 20px 0px 0px 0px;
+        gap: 50px;
     }
     .navee{
         display: none;
@@ -499,7 +499,6 @@ button:hover{
     .skill{
         grid-template-columns: 50% 50%;
     }
-    @media (min-width: 426px) and (max-width: 768px) {
 
     .proj {
         width: 90%;
@@ -510,8 +509,8 @@ button:hover{
     }
 
     .vid video {
-        /* width: 90%; */
-        /* max-width: 500px; */
+        width: 90%;
+        max-width: 500px;
         margin: 0 auto;
     }
 
@@ -533,15 +532,20 @@ button:hover{
     .view i {
         font-size: 20px;
     }
+    .educat{
+        grid-template-columns: 80%;
+        justify-content: center;
+        gap: 20px;
+    }
 }
 
-}
 @media (max-width:426px){
     .navee{
         display: none;
     }
     .top-content{
         grid-template-columns: 100%;
+        gap: 50px;
     }
     .girl-img{
         width: 250px;
@@ -568,8 +572,10 @@ button:hover{
     .skill{
         grid-template-columns: 90%;
     }
-    @media (max-width: 426px) {
-
+    .educat{
+        grid-template-columns: 100%;
+        gap: 10px;
+    }
     .proj {
         width: 95%;
         grid-template-columns: 1fr; /* Single column layout */
@@ -606,6 +612,4 @@ button:hover{
     .view i {
         font-size: 18px;
     }
-}
-
 }
