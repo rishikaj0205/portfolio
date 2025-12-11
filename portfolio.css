@@ -490,6 +490,10 @@ button:hover{
         margin: 20px 0px 0px 0px;
         gap: 50px;
     }
+    .girl-img{
+        align-self: center;
+        justify-self: center;
+    }
     .navee{
         display: none;
     }
