@@ -32,6 +32,19 @@ img{
 .main-nav{
     display: flex;
     justify-content: center;
+    transform: translateY(-50px);
+  animation: slideDown 1s ease-out forwards;
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 .navbar{
     display: flex;
@@ -58,6 +71,9 @@ img{
     display: flex;
     justify-content: center;
 }
+
+
+
 .top-content{
     display: grid;
     justify-content:center;
@@ -109,6 +125,10 @@ img{
     background:#0ef;
     letter-spacing: 1px;
     box-shadow: 0 0 10px #0ef;
+    transition: transform 0.3s ease;  
+}
+.dm:hover{
+    transform: scale(1.2);  
 }
 button:hover{
     cursor: pointer;
@@ -166,6 +186,10 @@ button:hover{
     border-radius: 20px;
     background:#0ef;
     box-shadow: 0 0 10px #0ef;
+    transition: transform 0.3s ease;  
+}
+.cm:hover{
+    transform: scale(1.2);  
 }
 .main-skill{
     padding: 100px 0px 100px 0px;
@@ -283,19 +307,19 @@ button:hover{
     justify-content: center;
 }
 .sch:hover{
-    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/school.png');
+    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.252)),url('./img/school.png');
     background-size: cover;
     background-position: center;
     color:#1f242d;
 }
 .clg:hover{
-    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/clg.jpeg');
+    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.252)),url('./img/clg.jpeg');
     background-size: cover;
     background-position: center;
     color:#1f242d;
 }
 .hub:hover{
-    background: linear-gradient(rgba(75, 76, 77, 0.9), rgba(229, 229, 231, 0.9)),url('./img/alo.jpeg');
+    background: linear-gradient(rgba(26, 26, 26, 0.537), rgba(229, 229, 231, 0.252)),url('./img/alo.jpeg');
     color:#1f242d;
     background-size: cover;
     background-position: center;
