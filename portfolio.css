@@ -234,43 +234,7 @@ button:hover{
     margin: 10px 0px 0px 0px;
 }
 
-/* .main-proj{
-    display: flex;
-    justify-content: center;
-    background-color:#1d212a;
-    color: white;
-}
-.proj{
-    padding: 80px 0px 80px 0px;
-    display: grid;
-    width: 80%;
-    grid-template-columns: 50% 50%;
-    justify-content: center;
-}
-.desc{
-    align-self: center;
-    font-size:15px;
-}
-.desc span{
-    font-size: 30px;
-}
-.desc p{
-    margin: 10px 0px 0px 0px;
-    line-height: 1.8;
-}
-.vid{
-    justify-self: center;
-}
 
-.view{
-    display: flex;
-    width: 250px;
-    gap: 20px;
-}
-.view i{
-    font-size: 25px;
-    color: #0ef;
-} */
 
 
 /* Project section */
@@ -433,39 +397,6 @@ button:hover{
 
 
 /* media query  */
-/* @media (min-width: 1201px) and (max-width: 1440px) {
-
-    .proj {
-        width: 85%;
-        grid-template-columns: 55% 45%;
-        padding: 70px 0;
-        gap: 35px;
-    }
-
-    .vid video {
-        width: 100%;
-        max-width: 550px;
-    }
-
-    .desc span {
-        font-size: 30px;
-    }
-
-    .desc p {
-        font-size: 15px;
-        line-height: 1.7;
-    }
-
-    .view {
-        width: 240px;
-        gap: 20px;
-    }
-
-    .view i {
-        font-size: 24px;
-    }
-
-} */
 
 @media (min-width:1024px) and (max-width:1201px){
     .navbar{
@@ -483,35 +414,6 @@ button:hover{
     .aboutme{
         width: 90%;
     }
-     /* .proj {
-        width: 90%;
-        grid-template-columns: 55% 45%;
-        padding: 60px 0;
-        gap: 30px;
-    }
-
-    .vid video {
-        width: 100%;
-        max-width: 500px;
-    }
-
-    .desc span {
-        font-size: 28px;
-    }
-
-    .desc p {
-        font-size: 14px;
-        line-height: 1.7;
-    }
-
-    .view {
-        width: 220px;
-        gap: 18px;
-    }
-
-    .view i {
-        font-size: 22px;
-    } */
     
 }
 
@@ -552,41 +454,7 @@ button:hover{
 
   .card {
     width: 260px;
-  }
-
-    /* .proj {
-        width: 90%;
-        grid-template-columns: 1fr;
-        padding: 60px 0;
-        gap: 40px;
-        text-align: center;
-    }
-
-    .vid video {
-        width: 100%;
-        max-width: 600px;
-        margin: 0 auto;
-    }
-
-    .desc {
-        font-size: 14px;
-    }
-
-    .desc span {
-        font-size: 26px;
-    }
-
-    .view {
-        margin: 0 auto;
-        width: 220px;
-        gap: 18px;
-        justify-content: center;
-    }
-
-    .view i {
-        font-size: 22px;
-    } */
-    
+  }    
 }
 
 @media (min-width:426px) and (max-width:768px){
@@ -620,39 +488,6 @@ button:hover{
   .projects h2 {
     font-size: 24px;
   }
-
-    /* .proj {
-        width: 90%;
-        grid-template-columns: 1fr;
-        padding: 50px 0;
-        gap: 35px;
-        text-align: center;
-    }
-
-    .vid video {
-        width: 90%;
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .desc {
-        font-size: 13px;
-    }
-
-    .desc span {
-        font-size: 24px;
-    }
-
-    .view {
-        margin: 0 auto;
-        width: 200px;
-        gap: 15px;
-        justify-content: center;
-    }
-
-    .view i {
-        font-size: 20px;
-    } */
     .educat{
         grid-template-columns: 80%;
         justify-content: center;
@@ -718,40 +553,4 @@ button:hover{
     padding: 6px 10px;
     font-size: 12px;
   }
-    /* .proj {
-        width: 95%;
-        grid-template-columns: 1fr;
-        padding: 40px 0;
-        gap: 25px;
-        text-align: center;
-    }
-
-    .vid video {
-        width: 100%;
-        max-width: 350px;
-        margin: 0 auto;
-    }
-
-    .desc {
-        font-size: 12px;
-    }
-
-    .desc span {
-        font-size: 20px;
-    }
-
-    .desc p {
-        line-height: 1.6;
-    }
-
-    .view {
-        margin: 0 auto;
-        width: 180px;
-        gap: 12px;
-        justify-content: center;
-    }
-
-    .view i {
-        font-size: 18px;
-    } */
 }
