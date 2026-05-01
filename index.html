@@ -14,20 +14,25 @@
 <body>
     <div class="top-main">
     <div class="main-nav">
-    <div class="navbar">
-        <div class="nav"><span>.Portfolio</span></div>
-        <div class="navee">
-            <ul>
-                <li><a href="" class="active">Home</a></li>
-                <li><a href="#abut">About</a></li>
-                <li><a href="#skll">Skills</a></li>
-                <li><a href="#education">Qualification</a></li>
-                <li><a href="#project">Project</a></li>
-                <li><a href="#tele">Contact</a></li>
-            </ul>
-        </div>
+  <div class="navbar">
+    
+    <div class="nav"><span>.Portfolio</span></div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <div class="navee" id="navMenu">
+      <ul>
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#education">Qualification</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#tele">Contact</a></li>
+      </ul>
     </div>
-    </div>
+
+  </div>
+</div>
     <div class="main-content">
     <div class="top-content">
         <div class="about" data-aos="zoom-in" data-aos-delay="500">
@@ -40,7 +45,7 @@
             <a href="https://www.linkedin.com/in/rishika-j-05b800396/"><span><i class="fa-brands fa-linkedin"></i></span></a>
             <a href="https://github.com/rishikaj0205/"><span><i class="fa-brands fa-github"></i></span></a>
         </div></p>
-            <button class="dm">Download CV</button>
+            <a href="Rishika J - Full stack.pdf" download target="_blank"><button class="dm">Download CV</button></a>
         </div>
         <div>
             <div class="girl-img"><img src="./img/bg.jpg" alt=""></div>
@@ -49,7 +54,7 @@
     </div>
     </div>
 
-    <div class="main-about" id="abut">
+    <div class="main-about" id="about">
     <div class="aboutme" data-aos="zoom-in">
         <div class="pic">
             <div class="girl"><img src="./img/bg.jpg" alt=""></div>
@@ -62,7 +67,7 @@
         </div>
     </div>
 
-    <div class="main-skill" id="skll">
+    <div class="main-skill" id="skill">
         <h4>SKILLS</h4>
         <div class="skill">
             <div class="html box">
@@ -161,6 +166,25 @@
       </div>
     </div>
 
+     <!-- <div class="card">
+      <img src="./img/home page.jpeg" alt="">
+      <h3>Food Loop App</h3>
+      <p>Figma-based UI/UX design with clean and intuitive interface.</p>
+      <div class="buttons">
+        <a href="https://www.figma.com/design/GmTZxU7yMJx7kJA4o4chIu/Food-Loop?node-id=14-34&t=4xkf5yXvo8VUs2Ik-1">Live Demo</a>
+      </div>
+    </div> -->
+
+
+    <!-- <div class="card">
+      <img src="./img/figma portfolio.png" alt="">
+      <h3>Personal Portfolio Site</h3>
+      <p>Portfolio website UI designed in Figma, emphasizing modern layout, usability, and visual clarity.</p>
+      <div class="buttons">
+        <a href="https://www.figma.com/design/GmTZxU7yMJx7kJA4o4chIu/Food-Loop?node-id=14-34&t=4xkf5yXvo8VUs2Ik-1">Live Demo</a>
+      </div>
+    </div> -->
+
   </div>
 </section>
 
@@ -200,7 +224,6 @@
         </div>
     </div>
     </div>
-
 
 <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
 <script>
